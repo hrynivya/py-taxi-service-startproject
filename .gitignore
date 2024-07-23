@@ -1,32 +1,32 @@
-# Virtual environment
-venv/
-
-# Python cache
-__pycache__/
 *.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
 
-# Django stuff
-*.sqlite3
+venv/
+ENV/
+env/
+.venv/
+
 db.sqlite3
-media/
-staticfiles/
 
-# IDE
 .idea/
 .vscode/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Logs
 *.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+local_settings.py
+db.sqlite3
+media
 
-# Test reports
-coverage/
-*.cover
-*.py,cover
-.hypothesis/
-
-# Environment variables
-.env
+*.idea/
+*.sublime-project
+*.sublime-workspace
